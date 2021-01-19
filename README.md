@@ -1,45 +1,106 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# [SK FITNESS](https://)
 
-Welcome USER_NAME,
+SK FITNESS is a newly built state of the art gym situated on the outskirts of Limerick City in Clarina.
+It targets members of all ages to come and join our friendly gym community.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+[http://ami.responsivedesign.is/]  
 
-## Gitpod Reminders
+You can view the live site here []
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+# User Experience (UX)
+This website is designed in a mobile first approach, it is designed so the user can navigate throughout the site with lots of call to action buttons.
+## User Stories  
+* "As a user I would like to navigate easily throughout website"  
+* "As a user I would want to check class times"  
+* "As a user I want to know about the gyms facilities"  
+* "As a user I would like to check membership prices"  
+* "As a user I would like to contact the gym"
 
-`python3 -m http.server`
+### Project Goals 
+* A fully functional website with a fixed navigation bar so user can easily access each landing page.
+* A class timetable with classes/times/days.
+* A gallery page where visitors can see the gyms facilities.
+* A list of our price range for students and adults.  
+* A contact page where users can contact gym and write a short message to us.  
 
-A blue button should appear to click: *Make Public*,
+## Wireframes 
 
-Another blue button should appear to click: *Open Browser*.
+* [Wireframes Home page](assets/wireframes/Wireframe-home.pdf)  
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+* [Wireframes Classes page](assets/wireframes/Wireframe-classes.pdf)  
 
-A blue button should appear to click: *Make Public*,
+* [Wireframes Gallery page](assets/wireframes/Wireframe-gallery.pdf)  
 
-Another blue button should appear to click: *Open Browser*.
+* [Wireframes Contact page](assets/wireframes/Wireframe-contact.pdf)  
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+* [Wireframes Log In modal](assets/wireframes/Wireframe-login.pdf)
 
-## Updates Since The Instructional Video
+## Design
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+* Colours  
+    * Background color of grey - #34393B  
+    * Header and footer color - #0f0707
+    * All text shade of white - #FAFAFA
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+* Typography  
+    * I have chosen Lato font all headings.
+    * I have chosen Roboto for all content with a fall back of sans serif.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+* Images - All images sourced from [Unsplash](https://unsplash.com/)  
+    * My hero image will be a picture if a man and woman working out together in the gym.
+    * Images in my gallery will show memebers working out in the gym and also gym facilities.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+## Features  
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+* 4 page website with a home/classes/gallery/contact pages.  
+* Fixed navigation bar to allow users to navigate easily throughout site.  
+* Fixed footer on mobile devices with links to gyms social media pages.  
+* Image carousel with images from gym.  
+* Contact form for users to message gym.  
+* Fully responsive site.  
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+## Features left to implement  
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+* In the future would like to add a sign up page where user's can create an account.  
+* I would also like to have a booking system where users can book a class.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+## Technologies Used
 
---------
+### Lanuages Used
+* [HTML5](https://en.wikipedia.org/wiki/HTML5)   
 
-Happy coding!
+* [CSS3](https://en.wikipedia.org/wiki/CSS)  
+
+### Frameworks | Libraries | Programs Used
+
+* [Bootstrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/)  
+
+* [Font Awesome](https://fontawesome.com/)  
+
+* [Google Fonts](https://fonts.google.com/)  
+
+* [jQuery](https://jquery.com/)  
+
+* [Git](https://git-scm.com/)  
+
+* [GitHub](https://github.com/)  
+
+* [GitPod](https://www.gitpod.io/)
+
+## Resources  
+* [Balsamiq](https://balsamiq.com/)  
+
+* [Unsplash](https://unsplash.com/)  
+
+* [Coolers](https://coolors.co/)
+
+## Testing
+
+## Known Bugs + Solutions
+
+## Deployment
+
+## Credits
+
+
+
