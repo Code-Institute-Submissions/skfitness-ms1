@@ -21,7 +21,7 @@
 }
 
 .navbar a i {
-    color: #d12a2a;
+    color: #dc3345;
     font-size: 32px;
 }
 
@@ -30,12 +30,12 @@
 }
 
 .nav-item :hover {
-    color: #d12a2a;
+    color: #dc3345;
 }
 
 .btn-bg {
     color: #fafafa;
-    background-color: #d12a2a;
+    background-color: #dc3345;
     padding: 2px;
     margin-left: 10px;
 }
@@ -56,7 +56,7 @@
 }
 
 .insp-quote {
-    color: #d12a2a;
+    color: #dc3345;
     font-size: 48px;
     text-align: center;
     letter-spacing: 2px;
