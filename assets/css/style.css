@@ -75,6 +75,13 @@ h3 {
     padding-top: 50px;
 }
 
+.about-us {
+    text-align: center;
+    color: #fafafa;
+    background-color: #384144;
+}
+
+
 /*-----------Media queries-----------*/
 
 @media(max-width:600px) {
