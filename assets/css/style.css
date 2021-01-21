@@ -81,7 +81,9 @@ h3 {
     color: #fafafa;
     background-color: #384144;
     padding-top: 15px;
+    margin: 0;
 }
+
 
 hr {
     width: 300px;
@@ -95,6 +97,12 @@ hr {
     padding-top: 20px;
     padding-left: 50px;
     letter-spacing: 1px;
+    margin: 0;
+}
+
+/*List text was starting in center and not beside bullet points*/
+.about-us-facilities li {
+    text-align: justify;
 }
 
 .about-us-who {
@@ -104,6 +112,7 @@ hr {
     padding-top: 20px;
     padding-right: 50px;
     letter-spacing: 1px;
+    margin: 0;
 }
 
 .about-us-who h3,
@@ -122,5 +131,18 @@ hr {
 
     .hero-img {
         background-position: left;
+    }
+
+    .about-us-who,
+    .about-us-facilities {
+        display: block;
+        width: 90%;
+        padding: 5px;
+        margin: 0;
+
+    }
+
+    hr {
+        width: 200px;
     }
 }
