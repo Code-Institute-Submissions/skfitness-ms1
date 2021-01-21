@@ -6,6 +6,7 @@
 
 body {
     font-family: "roboto", sans-serif;
+    font-size: 16px;
 }
 
 h1,
@@ -79,8 +80,36 @@ h3 {
     text-align: center;
     color: #fafafa;
     background-color: #384144;
+    padding-top: 15px;
 }
 
+hr {
+    width: 300px;
+    background-color: #dc3345;
+    height: 3px;
+}
+
+.about-us-facilities {
+    display: inline-block;
+    width: 40%;
+    padding-top: 20px;
+    padding-left: 50px;
+    letter-spacing: 1px;
+}
+
+.about-us-who {
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+    padding-top: 20px;
+    padding-right: 50px;
+    letter-spacing: 1px;
+}
+
+.about-us-who h3,
+.about-us-facilities h3 {
+    padding-bottom: 15px;
+}
 
 /*-----------Media queries-----------*/
 
