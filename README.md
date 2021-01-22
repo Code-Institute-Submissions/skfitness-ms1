@@ -96,7 +96,9 @@ This website is designed in a mobile first approach, it is designed so the user 
 
 * [W3schools](https://www.w3schools.com/)   
 
-* [Stack overflow](https://stackoverflow.com/) 
+* [Stack overflow](https://stackoverflow.com/)  
+
+* [CSS-TRICKS](https://css-tricks.com/)
 
 ## Testing
 
