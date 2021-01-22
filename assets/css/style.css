@@ -46,11 +46,12 @@ h3 {
     color: #dc3345;
 }
 
+
 .btn-bg {
     color: #fafafa;
     background-color: #dc3345;
-    padding: 2px;
     margin-left: 10px;
+    vertical-align: middle;
 }
 
 .container-fluid {
