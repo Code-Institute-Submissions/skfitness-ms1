@@ -161,6 +161,28 @@ hr {
 
 /*-----------Media queries-----------*/
 
+@media(min-width:600px) {
+     .hero-img {
+        background-position: left;
+    }
+    
+     .footer {
+        height: 100%;
+    }
+
+    .footer-divs {
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    height: 100%;
+    padding: 10px;
+    margin: 0;
+    border: 0;
+    box-sizing: content-box;
+    }
+
+}
+
 @media(max-width:600px) {
     .insp-quote {
         font-size: 32px;
@@ -175,13 +197,25 @@ hr {
     .about-us-who,
     .about-us-facilities {
         display: block;
-        width: 90%;
-        padding: 5px;
+        width: 100%;
+        padding: 10px;
         margin: 0;
 
     }
 
     hr {
         width: 200px;
+    }
+    
+    .footer {
+        height: 100%;
+        margin: 0;
+    }
+
+    .footer-divs {
+        display: block;
+        width: 100%;
+        text-align: center;
+        height: 100%;
     }
 }
