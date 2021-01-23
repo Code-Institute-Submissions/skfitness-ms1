@@ -11,9 +11,13 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
     font-family: "Lato", sans-serif;
+    text-align: center;
+    color: #fafafa;
 }
+
 
 /*-----------Header-----------*/
 
@@ -246,4 +250,8 @@ hr {
     color: #fafafa;
     text-align: center;
     padding: 15px 0 0 0;
+}
+
+.membership {
+    background-color: #384144;
 }
