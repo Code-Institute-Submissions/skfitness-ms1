@@ -223,6 +223,21 @@ hr {
 
 /*-----------Classes.html-----------*/
 
+.table {
+    color: #fafafa;
+    margin-bottom: 0;
+    width: 80%;
+    margin: 40px auto;
+}
+
+.table th, .table td {
+    border: 1px solid #dc3345;
+}
+
+.table thead th {
+    border-bottom: 0; 
+}
+
 .timetable {
     background-color: #384144;
 }
