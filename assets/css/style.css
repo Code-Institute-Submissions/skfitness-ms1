@@ -166,7 +166,7 @@ hr {
 
 /*-----------Media queries-----------*/
 
-@media(min-width:600px) {
+@media(max-width:992px) {
      .hero-img {
         background-position: left;
     }
@@ -186,7 +186,7 @@ hr {
     box-sizing: content-box;
     }
 
-    .prices {
+    /*.prices {
         display: block;
         color: #fafafa;
         background-color: #0f0707;
@@ -195,6 +195,39 @@ hr {
         text-align: center;
         list-style-position: inside;
         margin: 0 auto;
+    }*/
+
+    #student-price {
+        display: block;
+        color: #fafafa;
+        background-color: #0f0707;
+        width: 70%;
+        padding: 20px;
+        text-align: center;
+        list-style-position: inside;
+        margin: 5px auto;
+    }
+
+    #adult-price {
+        display: block;
+        color: #fafafa;
+        background-color: #0f0707;
+        width: 70%;
+        padding: 20px;
+        text-align: center;
+        list-style-position: inside;
+        margin: 5px auto;
+    }
+
+    #couple-price {
+        display: block;
+        color: #fafafa;
+        background-color: #0f0707;
+        width: 70%;
+        padding: 20px;
+        text-align: center;
+        list-style-position: inside;
+        margin: 5px auto;
     }
 
 }
@@ -235,13 +268,37 @@ hr {
         height: 100%;
     }
 
-       .prices {
+    #student-price {
         display: block;
         color: #fafafa;
         background-color: #0f0707;
-        width: 60%;
-        height: 100%;
-        margin: 0 auto;
+        width: 70%;
+        padding: 20px;
+        text-align: center;
+        list-style-position: inside;
+        margin: 5px auto;
+    }
+
+    #adult-price {
+        display: block;
+        color: #fafafa;
+        background-color: #0f0707;
+        width: 70%;
+        padding: 20px;
+        text-align: center;
+        list-style-position: inside;
+        margin: 5px auto;
+    }
+
+    #couple-price {
+        display: block;
+        color: #fafafa;
+        background-color: #0f0707;
+        width: 70%;
+        padding: 20px;
+        text-align: center;
+        list-style-position: inside;
+        margin: 5px auto;
     }
 }
 
