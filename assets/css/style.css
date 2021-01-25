@@ -296,9 +296,8 @@ hr {
 
 .table {
     color: #fafafa;
-    margin-bottom: 0;
     width: 80%;
-    margin: 40px auto;
+    margin: 0 auto 0 auto;
 }
 
 .table th, .table td {
@@ -321,6 +320,7 @@ hr {
 
 .membership {
     background-color: #384144;
+    padding-top: 30px;
 }
 
 .prices {
@@ -336,6 +336,15 @@ hr {
 
 /*-----------Gallery.html-----------*/
 
+.gallery-heading {
+    background-color: #0f0707;
+    padding: 30px 0 50px 0;
+}
+
+.gallery-heading hr {
+    margin-bottom: 0;
+}
+
 .carousel-inner {
     height: 90vh;
     width: 80%;
@@ -345,3 +354,4 @@ hr {
 .carousel {
     background-color: #0f0707;
 }
+
