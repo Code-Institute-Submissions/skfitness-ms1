@@ -103,6 +103,10 @@ hr {
     padding-left: 50px;
     letter-spacing: 1px;
     margin: 0;
+    border: 1px solid #dc3345;
+    background-color: #0f0707;
+    border-radius: 2rem;
+    height: 300px;
 }
 
 /*List text was starting in center and not beside bullet points*/
@@ -118,6 +122,10 @@ hr {
     padding-right: 50px;
     letter-spacing: 1px;
     margin: 0;
+    border: 1px solid #dc3345;
+    background-color: #0f0707;
+    border-radius: 2rem;
+    height: 300px;
 }
 
 .about-us-who h3,
@@ -217,7 +225,7 @@ hr {
         padding: 20px;
         text-align: start;
         list-style-position: inside;
-        margin: 5px auto;
+        margin: 5px auto 0 auto;
     }
 
 }
@@ -288,7 +296,7 @@ hr {
         padding: 20px;
         text-align: start;
         list-style-position: inside;
-        margin: 5px auto;
+        margin: 5px auto 0 auto;
     }
 }
 
