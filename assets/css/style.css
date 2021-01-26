@@ -7,6 +7,7 @@
 body {
     font-family: "roboto", sans-serif;
     font-size: 16px;
+    letter-spacing: 1px;
 }
 
 h1,
@@ -105,7 +106,7 @@ hr {
     margin: 0;
     border: 1px solid #dc3345;
     background-color: #0f0707;
-    border-radius: 2rem;
+    border-radius: 1rem;
     height: 300px;
 }
 
@@ -124,7 +125,7 @@ hr {
     margin: 0;
     border: 1px solid #dc3345;
     background-color: #0f0707;
-    border-radius: 2rem;
+    border-radius: 1rem;
     height: 300px;
 }
 
@@ -228,6 +229,7 @@ hr {
         margin: 5px auto 0 auto;
     }
 
+
 }
 
 @media(max-width:600px) {
@@ -298,6 +300,7 @@ hr {
         list-style-position: inside;
         margin: 5px auto 0 auto;
     }
+
 }
 
 /*-----------Classes.html-----------*/
@@ -340,6 +343,7 @@ hr {
     list-style-position: inside;
     margin: 20px auto 20px auto;
     border: 1px solid #dc3345;
+    border-radius: 1rem;
 }
 
 /*-----------Gallery.html-----------*/
@@ -354,7 +358,6 @@ hr {
 }
 
 .carousel-inner {
-    height: 90vh;
     width: 80%;
     margin: 0 auto 0 auto;
 }
