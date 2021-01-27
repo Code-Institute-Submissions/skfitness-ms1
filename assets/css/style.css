@@ -256,7 +256,6 @@ hr {
         padding: 20px 10px;
         margin: 3rem auto;
         height: auto;
-
     }
 
     hr {
@@ -283,7 +282,7 @@ hr {
         padding: 20px;
         text-align: start;
         list-style-position: inside;
-        margin: 5px auto;
+        margin: 20px auto;
     }
 
     #adult-price {
@@ -294,7 +293,7 @@ hr {
         padding: 20px;
         text-align: start;
         list-style-position: inside;
-        margin: 5px auto;
+        margin: 20px auto;
     }
 
     #couple-price {
@@ -305,7 +304,7 @@ hr {
         padding: 20px;
         text-align: start;
         list-style-position: inside;
-        margin: 5px auto 0 auto;
+        margin: 20px auto 0 auto;
     }
 }
 
@@ -341,7 +340,7 @@ hr {
 
 .membership {
     background-color: #384144;
-    padding: 100px;
+    padding: 100px 0;
 }
 
 .prices {
@@ -368,7 +367,7 @@ hr {
 
 .gallery-heading {
     background-color: #0f0707;
-    padding: 30px 0 50px 0;
+    padding: 50px 0;
 }
 
 .gallery-heading hr {
