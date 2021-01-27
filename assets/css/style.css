@@ -408,3 +408,9 @@ hr {
     padding-top: 50px;
 }
 
+.form-group {
+    width: 60%;
+    margin: 0 auto;
+    color: #0f0707;
+}
+
