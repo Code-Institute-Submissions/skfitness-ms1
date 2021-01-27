@@ -212,7 +212,7 @@ hr {
         padding: 20px;
         text-align: start;
         list-style-position: inside;
-        margin: 5px auto;
+        margin: 20px auto;
     }
 
     #adult-price {
@@ -223,7 +223,7 @@ hr {
         padding: 20px;
         text-align: start;
         list-style-position: inside;
-        margin: 5px auto;
+        margin: 20px auto;
     }
 
     #couple-price {
@@ -234,8 +234,8 @@ hr {
         padding: 20px;
         text-align: start;
         list-style-position: inside;
-        margin: 5px auto 0 auto;
-    }
+        margin: 20px auto;
+    } 
 }
 
 @media(max-width:600px) {
