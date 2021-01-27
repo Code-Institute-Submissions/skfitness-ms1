@@ -306,12 +306,23 @@ hr {
         list-style-position: inside;
         margin: 20px auto 0 auto;
     }
+
+    .timetable {
+        display: none;
+    }
+}
+
+@media(min-width:600px) {
+    .mobile-table {
+        display: none;
+    }
 }
 
 /*-----------Classes.html-----------*/
 
 .timetable {
     padding-top: 50px;
+    background-color: #384144;
 }
 
 .table {
@@ -328,11 +339,18 @@ hr {
     border-bottom: 0; 
 }
 
-.timetable {
-    background-color: #384144;
+.timetable h2 {
+    color: #fafafa;
+    text-align: center;
+    padding: 15px 0 0 0;
 }
 
-.timetable h2 {
+.mobile-table {
+    background-color: #384144;
+    padding-top: 50px;
+}
+
+.mobiletable h2 {
     color: #fafafa;
     text-align: center;
     padding: 15px 0 0 0;
