@@ -337,7 +337,7 @@ hr {
 
 .membership {
     background-color: #384144;
-    padding-top: 30px;
+    padding: 100px;
 }
 
 .prices {
@@ -345,11 +345,19 @@ hr {
     color: #fafafa;
     background-color: #0f0707;
     width: 33%;
-    text-align: center;
+    text-align: start;
     list-style-position: inside;
     margin: 20px auto 20px auto;
     border: 1px solid #dc3345;
     border-radius: 1rem;
+}
+
+.prices ul li {
+    padding: 0;
+}
+
+#student-price {
+    margin-top: 50px;
 }
 
 /*-----------Gallery.html-----------*/
