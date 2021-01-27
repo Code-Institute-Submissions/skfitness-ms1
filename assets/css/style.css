@@ -86,8 +86,8 @@ h4 {
     text-align: center;
     color: #fafafa;
     background-color: #384144;
-    padding-top: 15px;
     margin: 0;
+    padding: 3rem 0 5rem 0;
 }
 
 
@@ -247,8 +247,8 @@ hr {
     .about-us-facilities {
         display: block;
         width: 80%;
-        padding: 10px;
-        margin: 0 auto;
+        padding: 20px 10px;
+        margin: 3rem auto;
         height: auto;
 
     }
