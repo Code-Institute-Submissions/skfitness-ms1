@@ -101,13 +101,16 @@ hr {
     display: inline-block;
     width: 40%;
     padding-top: 20px;
-    padding-left: 50px;
     letter-spacing: 1px;
-    margin: 0;
+    margin: 3rem;
     border: 1px solid #dc3345;
     background-color: #0f0707;
     border-radius: 1rem;
     height: 300px;
+}
+
+.about-us-facilities ul li {
+    padding: 0;
 }
 
 /*List text was starting in center and not beside bullet points*/
@@ -120,9 +123,8 @@ hr {
     width: 40%;
     vertical-align: top;
     padding-top: 20px;
-    padding-right: 50px;
     letter-spacing: 1px;
-    margin: 0;
+    margin: 3rem;
     border: 1px solid #dc3345;
     background-color: #0f0707;
     border-radius: 1rem;
@@ -179,6 +181,15 @@ hr {
      .hero-img {
         background-position: left;
     }
+
+    .about-us-who,
+    .about-us-facilities {
+        display: inline-block;
+        width: 40%;
+        padding: 20px 10px;
+        margin: 3rem 1rem;
+        height: auto;
+}
     
      .footer {
         height: 100%;
