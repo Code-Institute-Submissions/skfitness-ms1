@@ -409,10 +409,11 @@ hr {
 }
 
 .form-group {
-    width: 60%;
+    width: 50%;
     margin: 0 auto;
     color: #0f0707;
     padding: 20px;
+    font-weight: 600;
 }
 
 .btn {
@@ -420,5 +421,9 @@ hr {
     display: block;
     background-color: #dc3345;
     color: #fafafa;
+}
+
+.form-control {
+    border: 1px solid #dc3345;
 }
 
