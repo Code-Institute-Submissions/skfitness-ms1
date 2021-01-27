@@ -412,5 +412,13 @@ hr {
     width: 60%;
     margin: 0 auto;
     color: #0f0707;
+    padding: 20px;
+}
+
+.btn {
+    margin: 20px auto 20px auto;
+    display: block;
+    background-color: #dc3345;
+    color: #fafafa;
 }
 
