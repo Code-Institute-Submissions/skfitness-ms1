@@ -341,7 +341,7 @@ hr {
 }
 
 .prices {
-    display: inline-block;
+    display: block;
     color: #fafafa;
     background-color: #0f0707;
     width: 33%;
