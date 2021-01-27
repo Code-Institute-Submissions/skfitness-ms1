@@ -246,9 +246,10 @@ hr {
     .about-us-who,
     .about-us-facilities {
         display: block;
-        width: 100%;
+        width: 80%;
         padding: 10px;
-        margin: 0;
+        margin: 0 auto;
+        height: auto;
 
     }
 
