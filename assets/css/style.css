@@ -27,6 +27,7 @@ h4 {
     font-family: "roboto", sans-serif;
     padding: 20px;
     width: 100%;
+    display: s;
 }
 
 .navbar-title {
@@ -439,3 +440,6 @@ hr {
     border: 1px solid #dc3345;
 }
 
+.form-msg {
+    padding-bottom: 50px;
+}
