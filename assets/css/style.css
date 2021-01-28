@@ -163,6 +163,7 @@ hr {
     font-size: 2rem;
     text-align: center;
     color: #dc3345;
+    border-radius: 20%;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -170,7 +171,7 @@ hr {
 }
 
 .social-links li a i:hover {
-    background: #dc3345;
+    background: #fafafa;
 }
 
 /*-----------Media queries-----------*/
