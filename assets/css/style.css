@@ -265,6 +265,7 @@ hr {
     .footer {
         height: 100%;
         margin: 0;
+        padding: 20px;
     }
 
     .footer-divs {
@@ -309,6 +310,10 @@ hr {
 
     .timetable {
         display: none;
+    }
+
+    .form-group {
+        width: 90%;
     }
 }
 
