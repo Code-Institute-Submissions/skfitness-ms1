@@ -188,7 +188,7 @@ hr {
         width: 40%;
         padding: 20px 10px;
         margin: 3rem 1rem;
-        height: auto;
+        height: 450px;
 }
     
      .footer {
@@ -313,15 +313,16 @@ hr {
     .timetable {
         display: none;
     }
-
-    .form-group {
-        width: 90%;
-    }
 }
 
 @media(min-width:600px) {
     .mobile-table {
         display: none;
+    }
+
+    .contact-center {
+        max-width: 50%;
+        margin: 0 auto;
     }
 }
 
@@ -422,7 +423,7 @@ hr {
 }
 
 .form-group {
-    max-width: 50%;
+    max-width: 90%;
     margin: 0 auto;
     color: #0f0707;
     padding: 20px;
