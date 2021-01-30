@@ -1,9 +1,9 @@
-# [SK FITNESS] (https://shanekennyb.github.io/skfitness-ms1/)
+# [SK FITNESS](https://shanekennyb.github.io/skfitness-ms1/)
 
 SK FITNESS is a newly built state of the art gym situated on the outskirts of Limerick City in Clarina.
 It targets members of all ages to come and join our friendly gym community.
 
-[http://ami.responsivedesign.is/]  
+! [http://ami.responsivedesign.is/]()  
 
 You can view the live site here [https://shanekennyb.github.io/skfitness-ms1/]
 
