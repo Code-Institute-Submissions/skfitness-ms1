@@ -40,7 +40,8 @@ This website is designed in a mobile first approach, it is designed so the user 
 * Colours  
     * Background color of grey - #34393B  
     * Header and footer color - #0f0707
-    * All text shade of white - #FAFAFA
+    * All text shade of white - #FAFAFA  
+    * Buttons colour of red - #dc3345
 
 * Typography  
     * I have chosen Lato font all headings.
