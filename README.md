@@ -1,11 +1,11 @@
-# [SK FITNESS](https://)
+# [SK FITNESS] (https://shanekennyb.github.io/skfitness-ms1/)
 
 SK FITNESS is a newly built state of the art gym situated on the outskirts of Limerick City in Clarina.
 It targets members of all ages to come and join our friendly gym community.
 
 [http://ami.responsivedesign.is/]  
 
-You can view the live site here []
+You can view the live site here [https://shanekennyb.github.io/skfitness-ms1/]
 
 # User Experience (UX)
 This website is designed in a mobile first approach, it is designed so the user can navigate throughout the site with lots of call to action buttons.
@@ -47,7 +47,7 @@ This website is designed in a mobile first approach, it is designed so the user 
     * I have chosen Lato font all headings.
     * I have chosen Roboto for all content with a fall back of sans serif.
 
-* Images - All images sourced from [Unsplash](https://unsplash.com/)  
+* Images - All images sourced from [Unsplash](https://unsplash.com/) and [Pixabay](https://pixabay.com/) 
     * My hero image will be a picture if a man and woman working out together in the gym.
     * Images in my gallery will show memebers working out in the gym and also gym facilities.
 
@@ -92,6 +92,8 @@ This website is designed in a mobile first approach, it is designed so the user 
 * [Balsamiq](https://balsamiq.com/)  
 
 * [Unsplash](https://unsplash.com/)  
+
+* [Pixabay](https://pixabay.com/)
 
 * [Coolers](https://coolors.co/)  
 
