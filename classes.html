@@ -39,7 +39,8 @@
                             <a class="nav-link" href="contact.html">Contact</a>
                         </li>
                         <li>
-                            <a class="btn btn-bg" href="#">Log In</a>
+                            <button type="button" class="btn btn-bg" data-toggle="modal"
+                                data-target="#exampleModalCenter">Log In</button>
                         </li>
                     </ul>
                 </div>
@@ -49,9 +50,9 @@
     </header>
     <!--Header End-->
     <section>
-         <!-- Modal-Code taken from bootstrap 4 -->
-        <div class="modal bd-example-modal-lg" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
-            aria-hidden="true">
+        <!-- Modal-Code taken from bootstrap 4 -->
+        <div class="modal bd-example-modal-lg" id="exampleModalCenter" tabindex="-1" role="dialog"
+            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -63,11 +64,13 @@
                     <div class="modal-body">
                         <div>
                             <label for="email">Email Address</label>
-                            <input type="email" name="email" class="modal-form" id="email" placeholder="Enter Email" required>
+                            <input type="email" name="email" class="modal-form" id="email" placeholder="Enter Email"
+                                required>
                         </div>
                         <div>
                             <label for="password">Password</label>
-                            <input type="text" name="password" class="modal-form" id="password" placeholder="Enter Password" required>
+                            <input type="text" name="password" class="modal-form" id="password"
+                                placeholder="Enter Password" required>
                         </div>
                         <div></div>
                     </div>

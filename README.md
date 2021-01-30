@@ -27,7 +27,7 @@ This website is designed in a mobile first approach, it is designed so the user 
 
 * [Wireframes Home page](assets/wireframes/Wireframe-home.pdf)  
 
-* [Wireframes Classes page](assets/wireframes/Wireframe-classes.pdf)  
+* [Wireframes Classes page](assets/wireframes/Wireframe-classes1.pdf)  
 
 * [Wireframes Gallery page](assets/wireframes/Wireframe-gallery.pdf)  
 

@@ -39,7 +39,8 @@
                             <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
                         </li>
                         <li>
-                            <a class="btn btn-bg" href="#">Log In</a>
+                            <button type="button" class="btn btn-bg" data-toggle="modal"
+                                data-target="#exampleModalCenter">Log In</button>
                         </li>
                     </ul>
                 </div>
@@ -48,63 +49,69 @@
         </div>
     </header>
     <!--Header End-->
-     <!-- Modal-Code taken from bootstrap 4 -->
-        <div class="modal bd-example-modal-lg" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
-            aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLongTitle">Log In</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
+    <!-- Modal-Code taken from bootstrap 4 -->
+    <div class="modal bd-example-modal-lg" id="exampleModalCenter" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Log In</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div>
+                        <label for="email">Email Address</label>
+                        <input type="email" name="email" class="modal-form" id="email" placeholder="Enter Email"
+                            required>
                     </div>
-                    <div class="modal-body">
-                        <div>
-                            <label for="email">Email Address</label>
-                            <input type="email" name="email" class="modal-form" id="email" placeholder="Enter Email" required>
-                        </div>
-                        <div>
-                            <label for="password">Password</label>
-                            <input type="text" name="password" class="modal-form" id="password" placeholder="Enter Password" required>
-                        </div>
-                        <div></div>
+                    <div>
+                        <label for="password">Password</label>
+                        <input type="text" name="password" class="modal-form" id="password" placeholder="Enter Password"
+                            required>
                     </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn modal-login-btn">Log In</button>
-                    </div>
+                    <div></div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn modal-login-btn">Log In</button>
                 </div>
             </div>
         </div>
-        <!--Modal End-->
+    </div>
+    <!--Modal End-->
     <section class="container-fluid">
         <div class="contact">
             <h1>Contact Us</h1>
             <hr>
             <!--Form layout taken from bootstrap 4-->
             <div class="contact-center">
-            <form>
-                <div class="form-group">
-                    <label for="fullname">Your Name</label>
-                    <input type="text" name="name" class="form-control" id="fullname" placeholder="Enter Name" required>
-                </div>
-                <div class="form-group">
-                    <label for="email">Email address</label>
-                    <input type="email" name="email " class="form-control" id="email" placeholder="Enter email" required>
-                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
-                        else.</small>
-                </div>
-                <div class="form-group">
-                    <label for="subject">Subject</label>
-                    <input type="text" class="form-control" id="exampleInputSubject1" placeholder="Subject" required>
-                </div>
-                <div class="form-group form-msg">
-                    <label for="contactmessage">Your Message</label>
-                    <textarea class="form-control" name="contactmessage" id="contactmessage" placeholder="Your Message" required rows="5"></textarea>
-                </div>
-                <button type="submit" class="submit-btn">Submit</button>
-            </form>
+                <form>
+                    <div class="form-group">
+                        <label for="fullname">Your Name</label>
+                        <input type="text" name="name" class="form-control" id="fullname" placeholder="Enter Name"
+                            required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email address</label>
+                        <input type="email" name="email " class="form-control" id="emailaddress" placeholder="Enter email"
+                            required>
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                            else.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" class="form-control" id="exampleInputSubject1" placeholder="Subject"
+                            required>
+                    </div>
+                    <div class="form-group form-msg">
+                        <label for="contactmessage">Your Message</label>
+                        <textarea class="form-control" name="contactmessage" id="contactmessage"
+                            placeholder="Your Message" required rows="5"></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Submit</button>
+                </form>
             </div>
         </div>
     </section>
