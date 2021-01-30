@@ -453,10 +453,49 @@ hr {
 
 /*-----------Modal-----------*/
 
-.modal-form {
+.modal-content {
+    height: 500px;
+    max-width: 80%;
     margin: 0 auto;
+    background-color: #e9ecefbf;
+}
+
+.modal-header {
+    border: 0;
+}
+
+.modal-title {
+    margin: 0 auto;
+    font-size: 2rem;
+}
+
+.modal-header .close {
+    margin: 0;
+    padding: 0;
+}
+
+.modal-body {
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+    font-weight: 600;
+    padding-top: 50px;
+    border: 0;
+}
+
+.modal-footer {
+    margin: 0 auto;
+    padding-bottom: 50px;
+    border: 0;
+}
+
+.modal-login-btn {
+    background-color: #dc3345;
+}
+
+.modal-form {
+    margin: 30px auto;
     max-width: 70%;
     text-align: center;
-    padding: 20px;
 }
 
