@@ -324,6 +324,7 @@ hr {
     max-width: 80%;
     margin: 0 auto;
     background-color: #fafafa;
+    border: 1px solid #dc3345;
 }
 
 .modal-header {
@@ -363,6 +364,7 @@ hr {
     margin: 30px auto;
     max-width: 70%;
     text-align: center;
+    border: 1px solid;
 }
 
 /*-----------Media queries-----------*/

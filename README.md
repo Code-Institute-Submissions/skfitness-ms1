@@ -1,4 +1,6 @@
-# [SK FITNESS](https://shanekennyb.github.io/skfitness-ms1/)
+# [SK FITNESS](https://shanekennyb.github.io/skfitness-ms1/)  
+
+**Note this is not a real website and was built as a project website for my Code Institute MS1.**
 
 SK FITNESS is a newly built state of the art gym situated on the outskirts of Limerick City in Clarina.
 It targets members of all ages to come and join our friendly gym community.
@@ -27,7 +29,7 @@ This website is designed in a mobile first approach, it is designed so the user 
 
 * [Wireframes Home page](assets/wireframes/Wireframe-home.pdf)  
 
-* [Wireframes Classes page](assets/wireframes/Wireframe-classes1.pdf)  
+* [Wireframes Classes page](assets/wireframes/Wireframe-classes.pdf)  
 
 * [Wireframes Gallery page](assets/wireframes/Wireframe-gallery.pdf)  
 
@@ -105,7 +107,10 @@ This website is designed in a mobile first approach, it is designed so the user 
 
 ## Testing
 
-## Known Bugs + Solutions
+## Known Bugs + Solutions  
+
+* When I opened my classes.html page on mobile my class timetable was too big to fit screen.  
+To rectify this problem I created 3 seperate timetables, one for each class time.
 
 ## Deployment
 
