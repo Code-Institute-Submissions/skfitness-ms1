@@ -27,8 +27,7 @@ hr {
     height: 3px;
 }
 
-/*-----------Index.html-----------*/
-/*-----------Header-----------*/
+/*-----------Header for all-----------*/
 
 .navbar {
     background-color: #0f0707;
@@ -71,7 +70,7 @@ hr {
     padding: 0;
 }
 
-/*-----------Section-----------*/
+/*-----------Index.html Section-----------*/
 
 .hero-img {
     background: url(../images/man-woman1.jpg);
@@ -147,7 +146,7 @@ hr {
     color: #dc3345;
 }
 
-/*-----------Footer-----------*/
+/*-----------Footer for all-----------*/
 
 .footer {
     width: 100%;
