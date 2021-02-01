@@ -142,6 +142,11 @@ hr {
     padding-bottom: 15px;
 }
 
+.about-us-who i,
+.about-us-facilities i {
+    color: #dc3345;
+}
+
 /*-----------Footer-----------*/
 
 .footer {
