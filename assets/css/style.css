@@ -284,9 +284,6 @@ hr {
 
 .h-100 {
     height: 100vh!important;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .carousel-bg-color {
@@ -549,6 +546,7 @@ hr {
         width: 100%;
         margin: 2px auto;
         border: 1px solid;
+        display: block;
     }
 
     .modal-footer {
