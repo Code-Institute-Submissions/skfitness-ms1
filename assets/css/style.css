@@ -327,7 +327,7 @@ hr {
     height: 500px;
     max-width: 80%;
     margin: 0 auto;
-    background-color: #fafafa;
+    background-color: #adb5bd;
     border: 1px solid #dc3345;
 }
 
@@ -345,12 +345,18 @@ hr {
     padding: 0;
 }
 
+.log-in-icon{
+    text-align: center;
+    font-size: 4rem;
+    color: #dc3345;
+}
+
 .modal-body {
     margin: 0 auto;
     width: 90%;
     text-align: center;
     font-weight: 600;
-    padding-top: 50px;
+    padding-top: 10px;
     border: 0;
 }
 
@@ -517,7 +523,7 @@ hr {
     }
 
     .modal-content {
-        max-height: 300px;
+        max-height: 400px;
     }
 
     .modal-header {
@@ -530,6 +536,10 @@ hr {
         width: 100%;
     }
 
+    .modal-body p {
+        padding: 5px;
+    }
+
     .modal-form {
         width: 100%;
         margin: 2px auto;
@@ -537,7 +547,7 @@ hr {
     }
 
     .modal-footer {
-        padding-bottom: 10px;
+        margin-top: 25px;
     }
 }
 
