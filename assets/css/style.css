@@ -121,7 +121,7 @@ hr {
 
 /*List text was starting in center and not beside bullet points*/
 .about-us-facilities li {
-    text-align: justify;
+    text-align: left;
 }
 
 .about-us-who {
