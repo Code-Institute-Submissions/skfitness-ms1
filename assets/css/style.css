@@ -488,7 +488,7 @@ hr {
         padding: 20px;
         text-align: start;
         list-style-position: inside;
-        margin: 20px auto;
+        margin: 50px auto 20px auto;
     }
 
     #adult-price {
