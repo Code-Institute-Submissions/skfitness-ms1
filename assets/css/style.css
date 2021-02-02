@@ -35,7 +35,7 @@ hr {
     font-family: "roboto", sans-serif;
     padding: 20px;
     width: 100%;
-    display: s;
+    display: flex;
 }
 
 .navbar-title {
@@ -188,8 +188,7 @@ hr {
 }
 
 .copyright p {
-    text-align: end;
-    padding-right: 20px;
+    text-align: center;
     margin: 0;
     color: #fafafa;
     background-color: #384144;
@@ -257,10 +256,6 @@ hr {
 .prices h3 {
     padding: 10px;
 }
-
-/*#student-price {
-    margin-top: 50px;
-}*/
 
 /*-----------Gallery.html-----------*/
 
@@ -381,7 +376,7 @@ hr {
 
 /*-----------Media queries-----------*/
 
-@media(max-width:992px) {
+@media(max-width:1024px) {
      .hero-img {
         background-position: left;
     }
@@ -392,7 +387,7 @@ hr {
         width: 40%;
         padding: 20px 10px;
         margin: 3rem 1rem;
-        height: 450px;
+        height: 430px;
 }
     
      .footer {
@@ -570,11 +565,6 @@ hr {
     .contact-center {
         max-width: 50%;
         margin: 0 auto;
-    }
-
-    .about-us-facilities,
-    .about-us-who {
-        height: 400px;
     }
 }
 
