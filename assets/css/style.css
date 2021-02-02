@@ -571,6 +571,11 @@ hr {
         max-width: 50%;
         margin: 0 auto;
     }
+
+    .about-us-facilities,
+    .about-us-who {
+        height: 400px;
+    }
 }
 
 @media(min-width:2200px) {
