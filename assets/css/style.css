@@ -258,9 +258,9 @@ hr {
     padding: 10px;
 }
 
-#student-price {
+/*#student-price {
     margin-top: 50px;
-}
+}*/
 
 /*-----------Gallery.html-----------*/
 
@@ -602,6 +602,10 @@ hr {
 
     .prices {
         margin: 100px auto 100px auto;
+    }
+
+    .gallery-heading {
+        padding: 200px;
     }
 
     .social-links li a i {
