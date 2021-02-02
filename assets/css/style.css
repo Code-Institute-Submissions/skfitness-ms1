@@ -600,6 +600,10 @@ hr {
         padding: 100px;
     }
 
+    .prices {
+        margin: 100px auto 100px auto;
+    }
+
     .social-links li a i {
     font-size: 5rem;
     }
