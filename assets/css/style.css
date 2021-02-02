@@ -608,6 +608,18 @@ hr {
         padding: 200px;
     }
 
+    .form-group {
+        padding: 80px;
+        max-width: 50%;
+    }
+
+    .form-control {
+        height: calc(4rem + 1rem + 1px);
+        padding: .375rem .75rem;
+        font-size: 3rem;
+        line-height: 2;
+    }
+
     .social-links li a i {
     font-size: 5rem;
     }
