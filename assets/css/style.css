@@ -582,11 +582,20 @@ hr {
     }
 
     .navbar-title {
-        font-size: 3rem;
+        font-size: 5rem;
     }
 
     .navbar a i {
         font-size: 5rem;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 2rem;
+        padding-left: 2rem;
+    }
+
+    .btn-bg {
+        font-size: 4rem;
     }
 
     .insp-quote {
@@ -604,6 +613,18 @@ hr {
         margin: 100px auto 100px auto;
     }
 
+    .timetable {
+        padding-top: 100px;
+    }
+
+    .table {
+        margin: 150px auto 0 auto;
+        width: 70%;
+    }
+
+    .membership {
+        padding-top: 150px;
+    }
     .gallery-heading {
         padding: 200px;
     }
