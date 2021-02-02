@@ -565,7 +565,7 @@ hr {
     }
 }
 
-@media(min-width:1200px) {
+@media(min-width:2200px) {
     body {
         font-size: 4rem;
     }
@@ -605,7 +605,7 @@ hr {
 
     .about-us-who,
     .about-us-facilities {
-        height: fit-content;
+        height: 1200px;
         padding: 100px;
     }
 
@@ -681,5 +681,9 @@ hr {
 
     .modal-lg, .modal-xl {
         max-width: 50%;
+    }
+
+    .carousel-bg-color {
+        padding-bottom: 300px;
     }
 }
