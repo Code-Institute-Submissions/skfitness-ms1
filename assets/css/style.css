@@ -410,6 +410,10 @@ hr {
         box-sizing: content-box;
     }
 
+    .carousel img {
+        object-fit: cover;
+    }
+
     #student-price {
         display: block;
         color: #fafafa;
@@ -480,6 +484,10 @@ hr {
         width: 100%;
         text-align: center;
         height: 100%;
+    }
+
+    .carousel img {
+        object-fit: cover;
     }
 
     .copyright p {
