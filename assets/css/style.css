@@ -574,7 +574,7 @@ hr {
     h2,
     h3,
     h4 {
-        font-size: 5rem;
+        font-size: 7rem;
     }
 
     .footer {
@@ -625,6 +625,7 @@ hr {
     .membership {
         padding-top: 150px;
     }
+
     .gallery-heading {
         padding: 200px;
     }
@@ -641,8 +642,12 @@ hr {
         line-height: 2;
     }
 
+    .contact {
+        padding: 150px 0 150px 0;
+    }
+
     .social-links li a i {
-    font-size: 5rem;
+    font-size: 7rem;
     }
 
     hr {
