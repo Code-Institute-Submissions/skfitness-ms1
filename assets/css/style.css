@@ -653,4 +653,33 @@ hr {
     hr {
         width: 600px;
     }
+
+    .modal-title {
+        font-size: 5rem;
+    }
+
+    .modal-content {
+        height: fit-content;
+    }
+
+    .modal-form {
+        display: block;
+    }
+
+    button.close {
+        font-size: 4rem;
+    }
+
+    .modal-login-btn,
+    .btn-secondary {
+        font-size: 3rem;
+    }
+
+    .log-in-icon {
+        font-size: 7rem;
+    }
+
+    .modal-lg, .modal-xl {
+        max-width: 50%;
+    }
 }
