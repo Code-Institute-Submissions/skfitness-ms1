@@ -589,10 +589,15 @@ hr {
         font-size: 5rem;
     }
 
+    .insp-quote {
+        font-size: 8rem;
+        text-shadow: 5px 5px #fafafa;
+    }
+
     .about-us-who,
     .about-us-facilities {
         height: fit-content;
-        padding: 5px;
+        padding: 100px;
     }
 
     .social-links li a i {
