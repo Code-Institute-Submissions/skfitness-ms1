@@ -565,3 +565,41 @@ hr {
     }
 }
 
+@media(min-width:1200px) {
+    body {
+        font-size: 4rem;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4 {
+        font-size: 5rem;
+    }
+
+    .footer {
+        height: fit-content;
+    }
+
+    .navbar-title {
+        font-size: 3rem;
+    }
+
+    .navbar a i {
+        font-size: 5rem;
+    }
+
+    .about-us-who,
+    .about-us-facilities {
+        height: fit-content;
+        padding: 5px;
+    }
+
+    .social-links li a i {
+    font-size: 5rem;
+    }
+
+    hr {
+        width: 600px;
+    }
+}
