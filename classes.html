@@ -63,25 +63,27 @@
                     <div class="log-in-icon">
                         <i class="fas fa-user-circle"></i>
                     </div>
-                    <div class="modal-body">
-                        <div>
-                            <label for="email">Email Address</label>
-                            <input type="email" name="email" class="modal-form" id="email" placeholder="Enter Email"
-                                required>
+                    <form action="#" method="GET">
+                        <div class="modal-body">
+                            <div>
+                                <label for="email">Email Address</label>
+                                <input type="email" name="email" class="modal-form" id="email" placeholder="Enter Email"
+                                    required>
+                            </div>
+                            <div>
+                                <label for="password">Password</label>
+                                <input type="text" name="password" class="modal-form" id="password"
+                                    placeholder="Enter Password" required>
+                            </div>
+                            <div>
+                                <p>Not a member? Sign up <a href="#">Here</a></p>
+                            </div>
                         </div>
-                        <div>
-                            <label for="password">Password</label>
-                            <input type="text" name="password" class="modal-form" id="password"
-                                placeholder="Enter Password" required>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="submit" class="btn modal-login-btn">Log In</button>
                         </div>
-                        <div>
-                            <p>Not a member? Sign up <a href="#">Here</a></p>
-                        </div>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn modal-login-btn">Log In</button>
-                    </div>
+                    </form>
                 </div>
             </div>
         </div>
