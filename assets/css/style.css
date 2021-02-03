@@ -159,7 +159,7 @@ hr {
     display: inline-block;
     width: 33%;
     text-align: center;
-    vertical-align: -webkit-baseline-middle;
+    vertical-align: middle;
 }
 
 .footer-contact {
@@ -582,24 +582,28 @@ label {
     }
 }
 
-@media(min-width:2200px) {
+@media(min-width:2500px) {
     body {
-        font-size: 4rem;
+        font-size: 3rem;
     }
 
     h1,
     h2,
     h3,
     h4 {
-        font-size: 7rem;
+        font-size: 5rem;
     }
 
     .footer {
         height: fit-content;
     }
 
+    .footer-divs {
+        width: 30%;
+    }
+
     .navbar-title {
-        font-size: 5rem;
+        font-size: 4rem;
     }
 
     .navbar a i {
@@ -607,12 +611,12 @@ label {
     }
 
     .navbar-expand-lg .navbar-nav .nav-link {
-        padding-right: 2rem;
-        padding-left: 2rem;
+        padding-right: 1rem;
+        padding-left: 1rem;
     }
 
     .btn-bg {
-        font-size: 4rem;
+        font-size: 3rem;
     }
 
     .insp-quote {
@@ -649,7 +653,7 @@ label {
 
     .form-group {
         padding: 80px;
-        max-width: 50%;
+        max-width: 70%;
     }
 
     .form-control {
@@ -663,8 +667,12 @@ label {
         padding: 150px 0 150px 0;
     }
 
+    .submit-btn {
+        width: 250px;
+    }
+
     .social-links li a i {
-    font-size: 7rem;
+    font-size: 5rem;
     }
 
     hr {
