@@ -49,7 +49,9 @@
         </div>
     </header>
     <!--Header End-->
-    <!-- Modal-Code taken from bootstrap 4 -->
+
+    <section>
+        <!-- Modal-Code taken from bootstrap 4 -->
         <div class="modal bd-example-modal-lg" id="exampleModalCenter" tabindex="-1" role="dialog"
             aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
@@ -64,30 +66,33 @@
                         <i class="fas fa-user-circle"></i>
                     </div>
                     <form action="#" method="GET">
-                    <div class="modal-body">
-                        <div>
-                            <label for="email">Email Address</label>
-                            <input type="email" name="email" class="modal-form" id="email" placeholder="Enter Email"
-                                required>
+                        <div class="modal-body">
+                            <div>
+                                <label for="email">Email Address</label>
+                                <input type="email" name="email" class="modal-form" id="email" placeholder="Enter Email"
+                                    required>
+                            </div>
+                            <div>
+                                <label for="password">Password</label>
+                                <input type="text" name="password" class="modal-form" id="password"
+                                    placeholder="Enter Password" required>
+                            </div>
+                            <div>
+                                <p>Not a member? Sign up <a href="#">Here</a></p>
+                            </div>
                         </div>
-                        <div>
-                            <label for="password">Password</label>
-                            <input type="text" name="password" class="modal-form" id="password"
-                                placeholder="Enter Password" required>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="submit" class="btn modal-login-btn">Log In</button>
                         </div>
-                        <div>
-                            <p>Not a member? Sign up <a href="#">Here</a></p>
-                        </div>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="submit" class="btn modal-login-btn" >Log In</button>
-                    </div>
                     </form>
                 </div>
             </div>
         </div>
-        <!--Modal End-->
+    </section>
+    <!--Modal End-->
+
+    <!--Contact Us Section-->
     <section class="container-fluid">
         <div class="contact">
             <h1>Contact Us</h1>
@@ -109,8 +114,7 @@
                     </div>
                     <div class="form-group">
                         <label for="subject">Subject</label>
-                        <input type="text" class="form-control" id="subject" placeholder="Subject"
-                            required>
+                        <input type="text" class="form-control" id="subject" placeholder="Subject" required>
                     </div>
                     <div class="form-group form-msg">
                         <label for="contactmessage">Your Message</label>
