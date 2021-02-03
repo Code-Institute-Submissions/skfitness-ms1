@@ -286,6 +286,12 @@ hr {
     padding-bottom: 100px;
 }
 
+.carousel-control-next, 
+.carousel-control-prev {
+    background-color: #0f07077a;
+    width: 10%;
+}
+
 /*-----------Contact.html-----------*/
 
 .contact {
