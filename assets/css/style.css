@@ -308,6 +308,7 @@ hr {
     display: block;
     background-color: #dc3345;
     color: #fafafa;
+    width: 150px;
 }
 
 .form-control {
