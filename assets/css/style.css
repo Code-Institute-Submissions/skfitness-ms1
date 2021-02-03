@@ -367,6 +367,10 @@ hr {
     border: 0;
 }
 
+label {
+    display: block;
+}
+
 .modal-footer {
     margin: 0 auto;
     padding-bottom: 50px;
@@ -378,7 +382,7 @@ hr {
 }
 
 .modal-form {
-    margin: 30px auto;
+    margin: 0 auto 10px auto;
     max-width: 70%;
     text-align: center;
     border: 1px solid;
