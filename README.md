@@ -105,7 +105,23 @@ This website is designed in a mobile first approach, it is designed so the user 
 
 * [CSS-TRICKS](https://css-tricks.com/)
 
-## Testing
+## Testing  
+
+### Functionality Testing
+
+| Test          | Action        | Expected Outcome          | Result
+| ------------- |:-------------:| -------------:| -------------:
+| Nav Bar test      | Click on nav links | open each page         | Pass
+| Log In button test      | Click on log in button      |   open modal for log in         | Pass
+| Modal close button | click on modal close button      |   close modal         |       Pass
+| Check required when there is an empty input field in modal | Leave an input field blank | A required pop up message | Pass
+| Check page logo + name anchor | click on logo | take you to home page | Pass
+| Check classes CTA in our facilities section | click on classes | take you to classes page | Pass
+| Check gallery CTA in our facilities section | click on gallery | take you to gallery page | Pass
+| Check contact CTA in contact info section | click on contact | take you to contact page | Pass
+| Check social media icons | Click on each icon | Open a new page for each social media icon | Pass
+| Check each input field on contact page | Type text into each section | Text enters each field | Pass
+| Check required when there is an empty input field in contact us section | Leave an input field blank | A required pop up message | Pass
 
 ## Known Bugs + Solutions  
 

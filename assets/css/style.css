@@ -138,7 +138,7 @@ hr {
 
 .about-us-who h3,
 .about-us-facilities h3 {
-    padding-bottom: 15px;
+    padding-bottom: 25px;
 }
 
 .about-us-who i,
@@ -627,6 +627,8 @@ label {
     .about-us-facilities {
         height: inherit;
         padding: 100px;
+        margin-top: 200px;
+        margin-bottom: 200px;
     }
 
     .prices {
@@ -688,6 +690,10 @@ label {
 
     .modal-form {
         display: block;
+    }
+
+    .modal-footer {
+        width: fit-content;
     }
 
     button.close {
