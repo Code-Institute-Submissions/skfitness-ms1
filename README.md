@@ -5,7 +5,7 @@
 SK FITNESS is a newly built state of the art gym situated on the outskirts of Limerick City in Clarina.
 It targets members of all ages to come and join our friendly gym community.
 
-! [images/Am I Responsive.png]()  
+![Sk Fitness mockup](images/am-i-responsive.png)  
 
 You can view the live site here [https://shanekennyb.github.io/skfitness-ms1/]
 
