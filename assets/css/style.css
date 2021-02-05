@@ -103,7 +103,7 @@ hr {
     color: #fafafa;
     background-color: #384144;
     padding: 3rem 0 5rem 0;
-    margin-bottom: 250px;
+    margin-bottom: 200px;
 }
 
 .about-us-facilities {
@@ -248,7 +248,7 @@ hr {
 .membership {
     background-color: #384144;
     padding: 100px 0;
-    margin-bottom: 250px;
+    margin-bottom: 200px;
 }
 
 .prices {
@@ -289,6 +289,7 @@ hr {
 
 .carousel {
     background-color: #0f0707;
+    margin-bottom: 200px;
 }
 
 .h-100 {
@@ -312,7 +313,7 @@ hr {
     background-color: #fafafa;
     padding-top: 50px;
     padding-bottom: 100px;
-    margin-bottom: 250px;
+    margin-bottom: 200px;
 }
 
 .contact h1 {
@@ -482,6 +483,10 @@ label {
         background-position: left;
     }
 
+    .about-us {
+        margin-bottom: 450px;
+    }
+
     .about-us-who,
     .about-us-facilities {
         display: block;
@@ -517,6 +522,10 @@ label {
         padding: 0;
     }
 
+    .membership {
+        margin-bottom: 450px;
+    }
+    
     #student-price {
         display: block;
         color: #fafafa;
@@ -552,6 +561,10 @@ label {
 
     .timetable {
         display: none;
+    }
+
+    .contact {
+        margin-bottom: 480px;
     }
 
     .modal-content {
@@ -661,6 +674,7 @@ label {
 
     .membership {
         padding-top: 150px;
+        margin-bottom: 200px;
     }
 
     .gallery-heading {
