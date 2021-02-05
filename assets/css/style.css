@@ -153,6 +153,13 @@ hr {
 
 /*-----------Footer for all-----------*/
 
+.footer-absolute {
+    position: absolute;
+    min-width: 100%;
+    left: 0;
+    bottom: 0;
+}
+
 .footer {
     width: 100%;
     height: 200px;
