@@ -17,6 +17,11 @@ h4 {
     color: #fafafa;
 }
 
+html {
+    position: relative;
+    min-height: 100%;
+}
+
 .uppercase {
     text-transform: uppercase;
 }
@@ -599,10 +604,6 @@ label {
 
     .footer {
         height: fit-content;
-    }
-
-    .footer-divs {
-        width: 30%;
     }
 
     .navbar-title {
