@@ -9,51 +9,62 @@ It targets members of all ages to come and join our friendly gym community.
 
 You can view the live site here [https://shanekennyb.github.io/skfitness-ms1/]
 
-# User Experience (UX)
-This website is designed in a mobile first approach, it is designed so the user can navigate throughout the site with lots of call to action buttons.
-## User Stories  
+# User Experience (UX)  
+
+1. Strategy   
+
+    This website is designed in a mobile first approach, it is designed so the user can navigate throughout the site with lots of call to action buttons.
+    User Stories:  
 ---   
-* "As a user I would like to navigate easily throughout website"  
-* "As a user I would want to check class times"  
-* "As a user I want to know about the gyms facilities"  
-* "As a user I would like to check membership prices"  
-* "As a user I would like to contact the gym"
+    * "As a user I would like to navigate easily throughout website"  
+    * "As a user I would want to check class times"  
+    * "As a user I want to know about the gyms facilities"  
+    * "As a user I would like to check membership prices"  
+    * "As a user I would like to contact the gym"
 
-### Project Goals  
+    Project Goals:  
   
-* A fully functional website with a fixed navigation bar so user can easily access each landing page.
-* A class timetable with classes/times/days.
-* A gallery page where visitors can see the gyms facilities.
-* A list of our price range for students and adults.  
-* A contact page where users can contact gym and write a short message to us.  
+    * A fully functional website with a fixed navigation bar so user can easily access each landing page.
+    * A class timetable with classes/times/days.
+    * A gallery page where visitors can see the gyms facilities.
+    * A list of our price range for students and adults.  
+    * A contact page where users can contact gym and write a short message to us.  
 
-## Wireframes 
---- 
-* [Wireframes Home page](wireframes/Wireframe-home.pdf)  
+2. Scope  
 
-* [Wireframes Classes page](wireframes/Wireframe-classes.pdf)  
+3. Structure  
 
-* [Wireframes Gallery page](wireframes/Wireframe-gallery.pdf)  
+4. Skeleton  
 
-* [Wireframes Contact page](wireframes/Wireframe-contact.pdf)  
+    ## Wireframes 
+    --- 
+    * [Wireframes Home page](wireframes/Wireframe-home.pdf)  
 
-* [Wireframes Log In modal](/wireframes/Wireframe-login.pdf)  
+    * [Wireframes Classes page](wireframes/Wireframe-classes.pdf)  
 
-## Design
---- 
-* Colours  
-    * Background color of grey - #34393B  
-    * Header and footer color - #0f0707
-    * All text shade of white - #FAFAFA  
-    * Buttons colour of red - #dc3345
+    * [Wireframes Gallery page](wireframes/Wireframe-gallery.pdf)  
 
-* Typography  
-    * I have chosen Lato font all headings.
-    * I have chosen Roboto for all content with a fall back of sans serif.
+    * [Wireframes Contact page](wireframes/Wireframe-contact.pdf)  
 
-* Images - All images sourced from [Unsplash](https://unsplash.com/) and [Pixabay](https://pixabay.com/) 
-    * My hero image will be a picture if a man and woman working out together in the gym.
-    * Images in my gallery will show memebers working out in the gym and also gym facilities.
+    * [Wireframes Log In modal](/wireframes/Wireframe-login.pdf)  
+
+5. Surface
+
+    ## Design
+    --- 
+    * Colours  
+        * Background color of grey - #34393B  
+        * Header and footer color - #0f0707
+        * All text shade of white - #FAFAFA  
+        * Buttons colour of red - #dc3345
+
+    * Typography  
+        * I have chosen Lato font all headings.
+        * I have chosen Roboto for all content with a fall back of sans serif.
+
+    * Images - All images sourced from [Unsplash](https://unsplash.com/) and [Pixabay](https://pixabay.com/) 
+        * My hero image will be a picture if a man and woman working out together in the gym.
+        * Images in my gallery will show memebers working out in the gym and also gym facilities.
 
 ## Features  
 --- 
@@ -140,6 +151,23 @@ For Responsiveness i payed special attention to screen size as small as iphone 5
 * Everything worked fine on desktop screen size  
 * On xx-large screen (5120px x 2880) there was some spacing issues and text was too small, to rectify this I set a new media query for larger screens  
 
+### Code Validation  
+
+* Checked my html code on [W3 https://jigsaw.w3.org/css-validator/](https://validator.w3.org/) which showed no errors.  
+* Checked my CSS code on [W3 https://jigsaw.w3.org/css-validator/](https://jigsaw.w3.org/css-validator/) which show no errors.
+Showed 4 warnings. 
+1. 'Imported style sheets are not checked in direct input and file upload modes' googled this and found someone else had asked this 
+on [Stack Overflow](https://stackoverflow.com/questions/25946111/importing-css-is-ending-up-with-an-error) and that this is not a problem.  
+2. '-moz-transition is an unknown vendor extension'  
+3. '-webkit-transition is an unknown vendor extension'  
+4. '-o-transition is an unknown vendor extension'  
+-Again googled these warnings and am happy there is no problem.  
+
+### Other Testing  
+
+* Check all spellings on [Free Online Spell Checker](https://www.online-spellcheck.com/)  
+* Website speed check on [Uptrends](https://www.uptrends.com/) and passed with a very good speed score.
+
 ### User Stories  
 
 * I can navigate easily throughout the website  
@@ -152,7 +180,7 @@ For Responsiveness i payed special attention to screen size as small as iphone 5
 ---  
 
 * When I opened my classes.html page on mobile my class timetable was too big to fit screen.  
-To rectify this problem I created 3 seperate timetables, one for each class time.  
+To rectify this problem I created 3 separate timetables, one for each class time.  
 
 * When I opened modal log in and close button displayed to the right side.  
 To rectify this I set a width value for modal footer.  
@@ -178,7 +206,18 @@ can be opened on your local software.
 
 
 ## Credits  
---- 
+---  
+
+### Code Credits  
+
+* Nav bar, timetable, modal and carousel code taken from [Bootstrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/)  
+* Footer social icon design taken from Rosie project on [Code Institute](https://codeinstitute.net/)  
+* The wireframes were created on [Balsamiq](https://balsamiq.com/)  
+* Colours were chosen on [Coolers](https://coolors.co/)  
+* Images for hero image and carousel gallery were taken from [Unsplash](https://unsplash.com/) and [Pixabay](https://pixabay.com/)  
+* All fonts on website were taken from [Font Awesome](https://fontawesome.com/)  
+
+### Acknowledgements
 
 * Credit to my mentor Brian Macharia who gave me some great advice throughout this project  
 * Credit to Jim Lynx who created a great information video on slack  
