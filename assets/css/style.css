@@ -103,6 +103,7 @@ hr {
     color: #fafafa;
     background-color: #384144;
     padding: 3rem 0 5rem 0;
+    margin-bottom: 250px;
 }
 
 .about-us-facilities {
@@ -247,6 +248,7 @@ hr {
 .membership {
     background-color: #384144;
     padding: 100px 0;
+    margin-bottom: 250px;
 }
 
 .prices {
@@ -310,6 +312,7 @@ hr {
     background-color: #fafafa;
     padding-top: 50px;
     padding-bottom: 100px;
+    margin-bottom: 250px;
 }
 
 .contact h1 {
