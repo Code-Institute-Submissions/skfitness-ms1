@@ -113,14 +113,14 @@ This website is designed in a mobile first approach, it is designed so the user 
 
 | Test          | Action        | Expected Outcome          | Result
 | ------------- |:-------------:| -------------:| -------------:
-| Nav Bar test      | Click on nav links | open each page         | Pass
-| Log In button test      | Click on log in button      |   open modal for log in         | Pass
-| Modal close button | click on modal close button      |   close modal         |       Pass
+| Nav Bar test      | Click on nav links | Open each page         | Pass
+| Log In button test      | Click on log in button      |   Open modal for log in         | Pass
+| Modal close button | Click on modal close button      |   Close modal         |       Pass
 | Check required when there is an empty input field in modal | Leave an input field blank | A required pop up message | Pass
-| Check page logo + name anchor | click on logo | take you to home page | Pass
-| Check classes CTA in our facilities section | click on classes | take you to classes page | Pass
-| Check gallery CTA in our facilities section | click on gallery | take you to gallery page | Pass
-| Check contact CTA in contact info section | click on contact | take you to contact page | Pass
+| Check page logo + name anchor | Click on logo | Take you to home page | Pass
+| Check classes CTA in our facilities section | Click on classes | Take you to classes page | Pass
+| Check gallery CTA in our facilities section | Click on gallery | Take you to gallery page | Pass
+| Check contact CTA in contact info section | Click on contact | Take you to contact page | Pass
 | Check social media icons | Click on each icon | Open a new page for each social media icon | Pass
 | Check each input field on contact page | Type text into each section | Text enters each field | Pass
 | Check required when there is an empty input field in contact us section | Leave an input field blank | A required pop up message | Pass  
@@ -155,9 +155,10 @@ For Responsiveness i payed special attention to screen size as small as iphone 5
 To rectify this problem I created 3 seperate timetables, one for each class time.  
 
 * When I opened modal log in and close button displayed to the right side.  
-To rectify this I set a width value for modal footer  
+To rectify this I set a width value for modal footer.  
 
-* 
+* My footer was not staying at the bottom of website.  
+To rectify this I set the position of footer to absolute.
 
 ## Deployment  
 ---  
