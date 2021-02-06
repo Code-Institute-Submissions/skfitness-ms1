@@ -5,7 +5,7 @@
 SK FITNESS is a newly built state of the art gym situated on the outskirts of Limerick City in Clarina.
 It targets members of all ages to come and join our friendly gym community.
 
-![Sk Fitness mockup](images/am-i-responsive.png)  
+<img src="images/am-i-responsive.png">  
 
 You can view the live site here [https://shanekennyb.github.io/skfitness-ms1/]
 
@@ -32,7 +32,15 @@ You can view the live site here [https://shanekennyb.github.io/skfitness-ms1/]
 
 2. Scope  
 
+I've chosen to go with a simple 4 page website, which will provide an easy to use website for people of all software experience.  
+I've added a hero image and quote in which I hope to inspire users to want to join gym.  
+
 3. Structure  
+
+Sk Fitness website structure is designed to provide good ux for users 
+*  Same color schemes will be used throughout website  
+*  There will be hover elements on navigation links and footer social icons so taht it is clear what user is selecting  
+*  Call to action buttons on home page for users to easily naviagte to gallery or timetable page 
 
 4. Skeleton  
 
