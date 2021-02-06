@@ -11,68 +11,67 @@ You can view the live site here [https://shanekennyb.github.io/skfitness-ms1/]
 
 # User Experience (UX)  
 
-1. Strategy   
+## 1. Strategy   
+---
+This website is designed in a mobile first approach, it is designed so the user can navigate throughout the site with lots of call to action buttons.  
 
-    This website is designed in a mobile first approach, it is designed so the user can navigate throughout the site with lots of call to action buttons.
-    User Stories:  
----   
-    * "As a user I would like to navigate easily throughout website"  
-    * "As a user I would want to check class times"  
-    * "As a user I want to know about the gyms facilities"  
-    * "As a user I would like to check membership prices"  
-    * "As a user I would like to contact the gym"
+User Stories:     
+* "As a user I would like to navigate easily throughout website"  
+* "As a user I would want to check class times"  
+* "As a user I want to know about the gyms facilities"  
+* "As a user I would like to check membership prices"  
+* "As a user I would like to contact the gym"
 
     Project Goals:  
   
-    * A fully functional website with a fixed navigation bar so user can easily access each landing page.
-    * A class timetable with classes/times/days.
-    * A gallery page where visitors can see the gyms facilities.
-    * A list of our price range for students and adults.  
-    * A contact page where users can contact gym and write a short message to us.  
+* A fully functional website with a fixed navigation bar so user can easily access each landing page.
+* A class timetable with classes/times/days.
+* A gallery page where visitors can see the gyms facilities.
+* A list of our price range for students and adults.  
+* A contact page where users can contact gym and write a short message to us.  
 
-2. Scope  
-
+## 2. Scope  
+---
 I've chosen to go with a simple 4 page website, which will provide an easy to use website for people of all software experience.  
 I've added a hero image and quote in which I hope to inspire users to want to join gym.  
 
-3. Structure  
-
+## 3. Structure  
+---
 Sk Fitness website structure is designed to provide good ux for users 
 *  Same color schemes will be used throughout website  
 *  There will be hover elements on navigation links and footer social icons so taht it is clear what user is selecting  
 *  Call to action buttons on home page for users to easily naviagte to gallery or timetable page 
 
-4. Skeleton  
+## 4. Skeleton  
+---
+### Wireframes  
+* [Wireframes Home page](wireframes/Wireframe-home.pdf)  
 
-    ## Wireframes 
-    --- 
-    * [Wireframes Home page](wireframes/Wireframe-home.pdf)  
+* [Wireframes Classes page](wireframes/Wireframe-classes.pdf)  
 
-    * [Wireframes Classes page](wireframes/Wireframe-classes.pdf)  
+* [Wireframes Gallery page](wireframes/Wireframe-gallery.pdf)  
 
-    * [Wireframes Gallery page](wireframes/Wireframe-gallery.pdf)  
+* [Wireframes Contact page](wireframes/Wireframe-contact.pdf)  
 
-    * [Wireframes Contact page](wireframes/Wireframe-contact.pdf)  
+* [Wireframes Log In modal](/wireframes/Wireframe-login.pdf)  
 
-    * [Wireframes Log In modal](/wireframes/Wireframe-login.pdf)  
+## 5. Surface  
+---
+### Design
 
-5. Surface
+* Colours  
+    * Background color of grey - #34393B  
+    * Header and footer color - #0f0707
+    * All text shade of white - #FAFAFA  
+    * Buttons colour of red - #dc3345
 
-    ## Design
-    --- 
-    * Colours  
-        * Background color of grey - #34393B  
-        * Header and footer color - #0f0707
-        * All text shade of white - #FAFAFA  
-        * Buttons colour of red - #dc3345
+* Typography  
+    * I have chosen Lato font all headings.
+    * I have chosen Roboto for all content with a fall back of sans serif.
 
-    * Typography  
-        * I have chosen Lato font all headings.
-        * I have chosen Roboto for all content with a fall back of sans serif.
-
-    * Images - All images sourced from [Unsplash](https://unsplash.com/) and [Pixabay](https://pixabay.com/) 
-        * My hero image will be a picture if a man and woman working out together in the gym.
-        * Images in my gallery will show memebers working out in the gym and also gym facilities.
+* Images - All images sourced from [Unsplash](https://unsplash.com/) and [Pixabay](https://pixabay.com/) 
+    * My hero image will be a picture if a man and woman working out together in the gym.
+    * Images in my gallery will show memebers working out in the gym and also gym facilities.
 
 ## Features  
 --- 
@@ -144,13 +143,13 @@ Sk Fitness website structure is designed to provide good ux for users
 | Check each input field on contact page | Type text into each section | Text enters each field | Pass
 | Check required when there is an empty input field in contact us section | Leave an input field blank | A required pop up message | Pass  
 
-### Browser Compatibility  
+### Browser Compatibility:  
 
 * Checked website on google chrome with no errors  
 * Checked website on firefox with no errors
 * Checked on Microsoft Edge with no errors  
 
-### Responsiveness  
+### Responsiveness:  
 
 For Responsiveness i payed special attention to screen size as small as iphone 5 and large screens upto 5120px x 2880px (Imac Pro)  
 * On iphone 5 website worked as i wanted it to  
@@ -159,7 +158,7 @@ For Responsiveness i payed special attention to screen size as small as iphone 5
 * Everything worked fine on desktop screen size  
 * On xx-large screen (5120px x 2880) there was some spacing issues and text was too small, to rectify this I set a new media query for larger screens  
 
-### Code Validation  
+### Code Validation:  
 
 * Checked my html code on [W3 https://jigsaw.w3.org/css-validator/](https://validator.w3.org/) which showed no errors.  
 * Checked my CSS code on [W3 https://jigsaw.w3.org/css-validator/](https://jigsaw.w3.org/css-validator/) which show no errors.
@@ -171,12 +170,12 @@ on [Stack Overflow](https://stackoverflow.com/questions/25946111/importing-css-i
 4. '-o-transition is an unknown vendor extension'  
 -Again googled these warnings and am happy there is no problem.  
 
-### Other Testing  
+### Other Testing:  
 
 * Check all spellings on [Free Online Spell Checker](https://www.online-spellcheck.com/)  
 * Website speed check on [Uptrends](https://www.uptrends.com/) and passed with a very good speed score.
 
-### User Stories  
+### User Stories:  
 
 * I can navigate easily throughout the website  
 * I can check class times on the class timetable  
