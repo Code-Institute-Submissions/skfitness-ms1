@@ -37,9 +37,9 @@ I've added a hero image and quote in which I hope to inspire users to want to jo
 
 ## 3. Structure  
 ---
-Sk Fitness website structure is designed to provide good ux for users 
+SK Fitness website structure is designed to provide good ux for users 
 *  Same color schemes will be used throughout website  
-*  There will be hover elements on navigation links and footer social icons so taht it is clear what user is selecting  
+*  There will be hover elements on navigation links and footer social icons so that it is clear what user is selecting  
 *  Call to action buttons on home page for users to easily naviagte to gallery or timetable page 
 
 ## 4. Skeleton  
