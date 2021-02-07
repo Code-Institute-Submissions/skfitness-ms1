@@ -40,7 +40,7 @@ I've added a hero image and quote in which I hope to inspire users to want to jo
 SK Fitness website structure is designed to provide good ux for users 
 *  Same color schemes will be used throughout website  
 *  There will be hover elements on navigation links and footer social icons so that it is clear what user is selecting  
-*  Call to action buttons on home page for users to easily naviagte to gallery or timetable page 
+*  Call to action buttons on home page for users to easily navigate to gallery or timetable page 
 
 ## 4. Skeleton  
 ---
@@ -89,7 +89,7 @@ SK Fitness website structure is designed to provide good ux for users
 
 ## Technologies Used
 --- 
-### Lanuages Used
+### Languages Used
 * [HTML5](https://en.wikipedia.org/wiki/HTML5)   
 
 * [CSS3](https://en.wikipedia.org/wiki/CSS)  
@@ -151,7 +151,7 @@ SK Fitness website structure is designed to provide good ux for users
 
 ### Responsiveness:  
 
-For Responsiveness i payed special attention to screen size as small as iphone 5 and large screens upto 5120px x 2880px (Imac Pro)  
+For Responsiveness i paid special attention to screen size as small as iphone 5 and large screens upto 5120px x 2880px (Imac Pro)  
 * On iphone 5 website worked as i wanted it to  
 * Tested on my iphone 8 and found text overflow on one of my about divs changed div height to fix this  
 * Everything worked fine on ipad screen size  
