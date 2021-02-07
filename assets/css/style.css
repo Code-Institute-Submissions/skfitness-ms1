@@ -292,7 +292,7 @@ hr {
 }
 
 .h-100 {
-    height: 100vh!important;
+    height: 90vh!important;
 }
 
 .carousel-bg-color {
@@ -622,26 +622,27 @@ label {
 
 @media(min-width:2500px) {
     body {
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
     h1,
     h2,
     h3,
     h4 {
-        font-size: 5rem;
+        font-size: 3rem;
     }
 
     .footer {
         height: 500px;
+        padding-top: 30px;
     }
 
     .navbar-title {
-        font-size: 4rem;
+        font-size: 3rem;
     }
 
     .navbar a i {
-        font-size: 5rem;
+        font-size: 3rem;
     }
 
     .navbar-expand-lg .navbar-nav .nav-link {
@@ -650,11 +651,11 @@ label {
     }
 
     .btn-bg {
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
     .insp-quote {
-        font-size: 8rem;
+        font-size: 6rem;
         text-shadow: 5px 5px #fafafa;
     }
 
@@ -689,7 +690,7 @@ label {
     }
 
     .gallery-heading {
-        padding: 200px;
+        padding: 50px;
     }
 
     .form-group {
@@ -714,7 +715,7 @@ label {
     }
 
     .social-links li a i {
-    font-size: 5rem;
+    font-size: 4rem;
     }
 
     hr {
@@ -722,7 +723,7 @@ label {
     }
 
     .modal-title {
-        font-size: 5rem;
+        font-size: 3rem;
     }
 
     .modal-content {
@@ -738,16 +739,16 @@ label {
     }
 
     button.close {
-        font-size: 4rem;
+        font-size: 3rem;
     }
 
     .modal-login-btn,
     .btn-secondary {
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
     .log-in-icon {
-        font-size: 7rem;
+        font-size: 5rem;
     }
 
     .modal-lg, .modal-xl {
