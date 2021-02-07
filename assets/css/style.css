@@ -123,7 +123,6 @@ hr {
     padding: 0;
 }
 
-/*List text was starting in center and not beside bullet points*/
 .about-us-facilities li {
     text-align: left;
 }
@@ -152,7 +151,7 @@ hr {
     color: #dc3345;
 }
 
-/*-----------Footer for all-----------*/
+/*-----------Footer-----------*/
 
 .footer-absolute {
     position: absolute;
@@ -184,7 +183,6 @@ hr {
 }
 
 /* Social links transition taken from Rosie project CI*/
-
 .social-links li a i {
     font-size: 2rem;
     text-align: center;
